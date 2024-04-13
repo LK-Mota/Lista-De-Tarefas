@@ -1,9 +1,11 @@
+import LembreteEntrada from "./LembreteEntrada";
+
 function App() {
   return (
     <div className="container">
-      <div className="row">
-        <div className="col-12">
-          <p>Hello, lembretes</p>
+      <div className="row justify-content-center">
+        <div className="col-sm-12 col-md-10 col-lg-8">
+          <LembreteEntrada/>
         </div>
       </div>
     </div>
