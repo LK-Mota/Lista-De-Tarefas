@@ -15,7 +15,7 @@ function LembreteEntrada(props) {
       ></input>
       <button
         type="button"
-        className="btn btn-outline-success w-100 mt-3"
+        className="btn btn-success w-100 mt-3"
         onClick={() => {
           if (!lembrete) {
             return;
