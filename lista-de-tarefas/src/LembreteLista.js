@@ -32,6 +32,11 @@ function LembreteLista(props) {
                         ></rect>
                       </svg>
                       <strong className="me-auto">Lembrete {i + 1}</strong>
+                      <button type="button" className="btn-close shadow-none" aria-label="Close" onClick={() => {
+                        props.setLista(props.lista.filter(function(_, index) { 
+                            return index !== i;
+                        }));
+                      }}></button>
                     </div>
                     <div className="toast-body">{lembrete.texto}</div>
                   </div>

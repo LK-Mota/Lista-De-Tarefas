@@ -9,7 +9,7 @@ function App() {
     <div className="container">
       <div className="row justify-content-center">
         <div className="col-sm-12 col-md-6 col-lg-4">
-          <LembreteLista lista={lista} />
+          <LembreteLista lista={lista} setLista={setLista} />
           <br />
           <LembreteEntrada lista={lista} setLista={setLista} />
         </div>
